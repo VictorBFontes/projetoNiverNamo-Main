@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto niver Namoro <3</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Teste github</h1>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="texto">
+                        <strong>Minha amada Lia...</strong>
+                        <p>
+                            Fiz esse humilde site para você pois é o melhor q pude fazer por conta da distância, não é muito mas fiz com carinho <3. <br /> Eu vou te fazer muita coisa ainda para você meu amorzinho <333 <br /> te amo demais demais demais meu amorrr!! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="coracao">
+        </div>
+        <button class="button" type="button"> <a href="https://www.youtube.com/" >link</a></button>
+    </div>
+        
+    <script>
+         const envelope = document.querySelector('.envelope-wrapper');
+
+envelope.addEventListener('click', () => {
+    envelope.classList.toggle('flap');
+});
+    </script>
 </body>
 </html>
